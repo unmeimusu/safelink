@@ -2,12 +2,7 @@
 <!DOCTYPE html>
 <html b:css='false' b:defaultwidgetversion='2' b:layoutsVersion='3' expr:dir='data:blog.languageDirection' expr:lang='data:blog.locale' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>&lt;!--/**
 *
-* Created By postkomik
-* safelink blogger 1.6.5
-* Author : postkomik
-* Date	 : 4 maret 2021
-* URL 	 : postkomik.github.io
-* Repository : https://github.com/postblogger/safelink
+* Repository : https://github.com/unmeimusu/safelink-old
 * Re-styled : https://github.com/unmeimusu/safelink
 *
 */<head>--&gt;<b:include name='body'/>&lt;head&gt;
@@ -855,8 +850,6 @@ if (!String.prototype.startsWith) {
               Created By <a href='//postkomik.github.io'>postkomik</a>
               <!-- Please Dont Remove Or Change My Link  -->
             </div>
-      
-    <span class='h' id='a'/>
 </footer>
 </b:if>
 <span class='h' id='a'/>
