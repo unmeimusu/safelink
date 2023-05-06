@@ -138,11 +138,6 @@ body#layout #page-setting {background: #fffcf2}
 	  margin: 0 0 -120px 0;
 	  padding: 0 0 120px 0;
 	}
-	footer.footer {
-	  height: 120px;
-	  background-color: #ffffff;
-	  border-top: 1px solid #dee2e6;
-	}
 	.sticky-top {
 	  top: calc(60px + 1rem)
     }
@@ -162,7 +157,7 @@ body#layout #page-setting {background: #fffcf2}
   <div>
     <div>
       <div id='isihalaman'>
-        <b:section class='page-setting' cond='!data:view.isPreview' id='page-setting' maxwidgets='1'>
+        <b:section cond='!data:view.isPreview' id='page-setting' maxwidgets='1'>
           <b:widget id='HTML696' locked='false' title='setting' type='HTML' version='2' visible='true'>
             <b:widget-settings>
               <b:widget-setting name='content'>url: &quot;&quot;,
@@ -220,8 +215,8 @@ lang: {
 
 
             <b:if cond='data:blog.pageType == &quot;error_page&quot;'>
-              <div class='text-center' style='font-size: 7vw'>Oppss...</div>
-              <div class='text-center' style='font-size: 3vw'>Page not found</div>
+              <div style='font-size: 7vw'>Oppss...</div>
+              <div style='font-size: 3vw'>Page not found</div>
             </b:if>
 
 
@@ -256,7 +251,7 @@ if (!String.prototype.startsWith) {
                     if (passin[0].value.length) {
                       if (typeof(data) === &quot;object&quot;) {
 						if(!data.countdown){
-                          report[0].innerHTML = &#39;&lt;div class=&quot;text-center&quot;&gt;&lt;a href=&quot;&#39;+(data.url.toLowerCase().startsWith(&#39;www.&#39;) ? &#39;//&#39; : &#39;&#39;)+&#39;&#39;+data.url+&#39;&quot;&gt;&#39;+config.lang.gourltext+&#39;&lt;/a&gt;&lt;/div&gt;&#39;;
+                          report[0].innerHTML = &#39;&lt;div &gt;&lt;a href=&quot;&#39;+(data.url.toLowerCase().startsWith(&#39;www.&#39;) ? &#39;//&#39; : &#39;&#39;)+&#39;&#39;+data.url+&#39;&quot;&gt;&#39;+config.lang.gourltext+&#39;&lt;/a&gt;&lt;/div&gt;&#39;;
                           $this.find(&#39;button, input&#39;).attr(&#39;disabled&#39;, &#39;disabled&#39;);
                           $this.slideUp(&#39;slow&#39;);
 						} else {
@@ -265,22 +260,22 @@ if (!String.prototype.startsWith) {
                           var timeleft = config.timedown;
 						  var MuANasRAR = setInterval(function(){
                             var ANasRMunDurin = config.lang.countdowntext.replace(&#39;\x7b\x7b\x61\x6e\x61\x73\x63\x6f\x75\x6e\x74\x64\x6f\x77\x6e\x7d\x7d&#39;, timeleft);
-                            report[0].innerHTML = &#39;&lt;div class=&quot;border p-3 text-center&quot;&gt;&#39; + ANasRMunDurin + &#39;&lt;/div&gt;&#39;;
+                            report[0].innerHTML = &#39;&lt;div &gt;&#39; + ANasRMunDurin + &#39;&lt;/div&gt;&#39;;
 							setTimeout(function(){
                         	  report[0].parentNode.style.height = report[0].offsetHeight+&#39;px&#39;;
                       	    }, 0);
                             timeleft -= 1;
                             if(timeleft &lt;= 0){
                               clearInterval(MuANasRAR);
-                              report[0].innerHTML = &#39;&lt;div class=&quot;text-center&quot;&gt;&lt;a href=&quot;&#39;+(data.url.toLowerCase().startsWith(&#39;www.&#39;) ? &#39;//&#39; : &#39;&#39;)+&#39;&#39;+data.url+&#39;&quot;&gt;&#39;+config.lang.gourltext+&#39;&lt;/a&gt;&lt;/div&gt;&#39;;
+                              report[0].innerHTML = &#39;&lt;div &gt;&lt;a href=&quot;&#39;+(data.url.toLowerCase().startsWith(&#39;www.&#39;) ? &#39;//&#39; : &#39;&#39;)+&#39;&#39;+data.url+&#39;&quot;&gt;&#39;+config.lang.gourltext+&#39;&lt;/a&gt;&lt;/div&gt;&#39;;
                             }
                           }, 1000);
 						}
                       } else {
-                        report[0].innerHTML = &#39;&lt;div class=&quot;alert alert-danger text-center&quot;&gt;&#39;+config.lang.wrongpass+&#39;&lt;/div&gt;&#39;;
+                        report[0].innerHTML = &#39;&lt;div &gt;&#39;+config.lang.wrongpass+&#39;&lt;/div&gt;&#39;;
                       }
                     } else {
-                      report[0].innerHTML = &#39;&lt;div class=&quot;alert alert-danger text-center&quot;&gt;&#39;+config.lang.emptypass+&#39;&lt;/div&gt;&#39;;
+                      report[0].innerHTML = &#39;&lt;div &gt;&#39;+config.lang.emptypass+&#39;&lt;/div&gt;&#39;;
                     }
 
                     setTimeout(function(){
@@ -300,7 +295,7 @@ if (!String.prototype.startsWith) {
 
                     if (typeof(data) === &quot;object&quot;) {
                       if(!data.countdown){
-                      	$(config.output)[0].innerHTML = &#39;&lt;div class=&quot;text-center&quot;&gt;&lt;a class=&quot;text-center&quot; href=&quot;&#39;+(data.url.toLowerCase().startsWith(&#39;www.&#39;) ? &#39;//&#39; : &#39;&#39;)+&#39;&#39;+data.url+&#39;&quot;&gt;&#39;+config.lang.gourltext+&#39;&lt;/a&gt;&lt;/div&gt;&#39;;
+                      	$(config.output)[0].innerHTML = &#39;&lt;div &gt;&lt;a href=&quot;&#39;+(data.url.toLowerCase().startsWith(&#39;www.&#39;) ? &#39;//&#39; : &#39;&#39;)+&#39;&#39;+data.url+&#39;&quot;&gt;&#39;+config.lang.gourltext+&#39;&lt;/a&gt;&lt;/div&gt;&#39;;
                       } else {
                         var timeleft = config.timedown;
                         var MuANasRAR = setInterval(function(){
@@ -309,7 +304,7 @@ if (!String.prototype.startsWith) {
                           timeleft -= 1;
                           if(timeleft &lt;= 0){
                             clearInterval(MuANasRAR);
-                            $(config.output)[0].innerHTML = &#39;&lt;div class=&quot;text-center&quot;&gt;&lt;a class=&quot;text-center&quot; href=&quot;&#39;+(data.url.toLowerCase().startsWith(&#39;www.&#39;) ? &#39;//&#39; : &#39;&#39;)+&#39;&#39;+data.url+&#39;&quot;&gt;&#39;+config.lang.gourltext+&#39;&lt;/a&gt;&lt;/div&gt;&#39;;
+                            $(config.output)[0].innerHTML = &#39;&lt;div &gt;&lt;a href=&quot;&#39;+(data.url.toLowerCase().startsWith(&#39;www.&#39;) ? &#39;//&#39; : &#39;&#39;)+&#39;&#39;+data.url+&#39;&quot;&gt;&#39;+config.lang.gourltext+&#39;&lt;/a&gt;&lt;/div&gt;&#39;;
                           }
                         }, 1000);
                       }
@@ -318,7 +313,7 @@ if (!String.prototype.startsWith) {
                     }
                   } else {
                     if($(config.output).length){
-                      $(config.output)[0].innerHTML = &#39;&lt;div class=&quot;text-center&quot;&gt;&#39;+config.lang.nourl+&#39;&lt;/div&gt;&#39;;
+                      $(config.output)[0].innerHTML = &#39;&lt;div &gt;&#39;+config.lang.nourl+&#39;&lt;/div&gt;&#39;;
                     } else {
                       console.log(&#39;Not found output element, are you sure you this is not safelink page ??&#39;);
                     }
@@ -331,13 +326,13 @@ if (!String.prototype.startsWith) {
 
               <section>
                 <form autocomplete='off' class='form-group' id='safelink'>
-                  <div class='input-group mb-0'>
+                  <div class='input-group'>
                     <div class='input-group-prepend'>
                       <span class='input-group-text'><i/></span>
                     </div>
                     <input class='form-control' id='urlinput' onclick='sUp(&apos;#result&apos;)' onkeypress='sUp(&apos;#result&apos;)' placeholder='HTTP, HTTPS, or WWW' type='text'/>
                     <div class='input-group-append'>
-                      <button class='btn btn-primary' type='submit'>Convert</button>
+                      <button type='submit'>Convert</button>
                     </div>
                   </div>
                 </form>
@@ -531,7 +526,7 @@ if (!String.prototype.startsWith) {
                 <b:includable id='article.loop.post'>
 
             <div class='post-body' itemprop='articleBody'>
-              <h3 class='text-center'><data:post.title/></h3>
+              <h3><data:post.title/></h3>
             	<data:post.body/>
             </div>
 
