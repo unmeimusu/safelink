@@ -5,7 +5,7 @@
 Minified safe link blogger theme to provide a maintainable base theme.
 
 ### OLD VERSION
-Previously is from <a href="https://github.com/unmeimusu/safelink-old/tree/main">this project!</a>
+Previously is from <a href="https://github.com/unmeimusu/safelink-old/tree/main">this project.</a>
 
 ### HOW TO INSTALL?
 1. Copy main.xml to blogger dashboard > Theme > Edit HTML.
