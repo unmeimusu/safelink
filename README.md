@@ -2,14 +2,14 @@
 
 ### DESCRIPTION
 
-Minified safelink blogger theme to provide maintainable base theme.
+Minified safe link blogger theme to provide a maintainable base theme.
 
 ### OLD VERSION
 Previously is from <a href="https://github.com/unmeimusu/safelink-old/tree/main">this project!</a>
 
 ### HOW TO INSTALL?
 1. Copy main.xml to blogger dashboard > Theme > Edit HTML.
-2. Create a page with "next" title, to get "/p/next.html" url as a default page url.
+2. Create a page with a "next" title, to get the "/p/next.html" URL as a default page.
 3. Copy and paste the code below and then press "Publish".
 
 ### COPY THE CODE BELOW
