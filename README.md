@@ -1,2 +1,26 @@
-# safelink
-Minified safelink blogger theme to provide maintainable base theme. Previously https://github.com/unmeimusu/safelink-old
+# BLOGGER SAFELINK
+
+### DESCRIPTION
+
+Minified safelink blogger theme to provide maintainable base theme.
+
+### OLD VERSION
+Previously is from <a href="https://github.com/unmeimusu/safelink-old/tree/main">this project!</a>
+
+### HOW TO INSTALL?
+1. Copy main.xml to blogger dashboard > Theme > Edit HTML.
+2. Create a page with "next" title, to get "/p/next.html" url as a default page url.
+3. Copy and paste the code below and then press "Publish".
+
+### COPY THE CODE BELOW
+
+```html
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultrices nibh sit amet eros lobortis eleifend. Suspendisse eget mauris quis lacus condimentum fermentum. Cras sed posuere magna, in semper arcu. Integer nec nisi vitae massa venenatis venenatis nec non velit. Duis ut magna in dolor elementum euismod. Duis ex nunc, elementum a faucibus ac, elementum quis lacus. Etiam eget orci non ex vulputate pretium. Vestibulum at pellentesque ligula, vitae volutpat quam. Nullam auctor ut velit condimentum pharetra. Donec venenatis varius est, quis gravida mauris tempus sit amet. Etiam ullamcorper vel turpis vel euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Suspendisse vel tempus odio. In magna nisl, malesuada ac pretium cursus, lobortis sed sem. Ut cursus nisi eget pretium imperdiet.</p>
+
+<div id='output'></div>
+
+<p>Mauris vel eros ut ligula fermentum feugiat. Donec vestibulum, est at consectetur dictum, velit metus mattis mauris, ac commodo quam metus nec neque. Phasellus nec metus lorem. Vivamus ligula ex, ullamcorper a augue non, elementum pellentesque ex. Nunc lectus neque, congue at tristique sit amet, tempus ut erat. Aliquam erat volutpat. In laoreet luctus ipsum, eget dignissim lorem suscipit sed. Donec placerat neque quis facilisis cursus. Integer accumsan tortor sed erat tempus condimentum. Vestibulum hendrerit, sem at viverra cursus, augue augue pulvinar lorem, vel tincidunt metus mauris quis nisi.</p>
+```
+
+### DEMO
+<a href="https://cc7z.blogspot.com/">Click this link, please!</a>
