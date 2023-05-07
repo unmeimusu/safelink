@@ -34,3 +34,16 @@ Previously is from <a href="https://github.com/unmeimusu/safelink-old/tree/main"
 
 ### DEMO
 <a href="https://cc7z.blogspot.com/">Click this link, please!</a>
+
+### FEATURES
+[X] ENCRYPT LINK FORM
+[X] PAGE REDIRECT
+[X] COUNTDOWN TIMER
+[x] RANDOM POST
+[X] PASSWORD PROTECT
+[X] ANONYMOUS / NO REGISTRATION
+[X] SMALL FOOTPRINT AS BASIC TEMPLATE
+[X] BETTER PERFORMANCE
+
+### PERFORMANCE
+<a href="https://gtmetrix.com/reports/cc7z.blogspot.com/9EFxrRKy/">Latest report here.</a>
