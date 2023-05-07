@@ -29,7 +29,8 @@ Previously is from <a href="https://github.com/unmeimusu/safelink-old/tree/main"
 
 ### YOUR POSTS MUST HAVE THE CODE BELOW
 ```html
-<div id='output'></div>```
+<div id='output'></div>
+```
 
 ### DEMO
 <a href="https://cc7z.blogspot.com/">Click this link, please!</a>
