@@ -22,7 +22,7 @@
 &quot;use strict&quot;;
 $(document).ready(function() {
   (function(W,D){
-    W.asli_config = {
+    W.org_config = {
       url: &#39;&#39;,
       page: &#39;p/next.html&#39;,
       output: &#39;#output&#39;,
@@ -166,15 +166,15 @@ fixednavbar: true,
 countdown: true,
 timedown: 10,
 lang: {
- urlempty: &quot;URL can not be empty&quot;,
- convertsuccess: &quot;Convert URL success, copy url on box below&quot;,
+ urlempty: &quot;Please fill the URL form!&quot;,
+ convertsuccess: &quot;URL encrypted, please copy the new URL&quot;,
  validtext: &quot;HTTP, HTTPS, or WWW&quot;,
- gourltext: &quot;Click here to go&quot;,
- nourl: &quot;No URl here&quot;,
- errorconvert: &quot;URL can not to convert&quot;,
- emptypass: &quot;Password can not be empty&quot;,
- wrongpass: &quot;Password is incorrect&quot;,
- countdowntext: &quot;Please Wait {{anascountdown}} Second&quot;
+ gourltext: &quot;Click Here&quot;,
+ nourl: &quot;Empty URL&quot;,
+ errorconvert: &quot;Error, convert fail!&quot;,
+ emptypass: &quot;Fill the password form, please!&quot;,
+ wrongpass: &quot;Incorrect password&quot;,
+ countdowntext: &quot;Please Wait - {{anascountdown}}&quot;
 }</b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
@@ -184,7 +184,7 @@ lang: {
     window.new_config = {
       <data:content/>
     }
-    window.config = $.extend(true, asli_config, new_config);
+    window.config = $.extend(true, org_config, new_config);
   });
 </script>
             </b:includable>
