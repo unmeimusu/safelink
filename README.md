@@ -22,5 +22,14 @@ Previously is from <a href="https://github.com/unmeimusu/safelink-old/tree/main"
 <p>Mauris vel eros ut ligula fermentum feugiat. Donec vestibulum, est at consectetur dictum, velit metus mattis mauris, ac commodo quam metus nec neque. Phasellus nec metus lorem. Vivamus ligula ex, ullamcorper a augue non, elementum pellentesque ex. Nunc lectus neque, congue at tristique sit amet, tempus ut erat. Aliquam erat volutpat. In laoreet luctus ipsum, eget dignissim lorem suscipit sed. Donec placerat neque quis facilisis cursus. Integer accumsan tortor sed erat tempus condimentum. Vestibulum hendrerit, sem at viverra cursus, augue augue pulvinar lorem, vel tincidunt metus mauris quis nisi.</p>
 ```
 
+### HOW TO USE RANDOM POST?
+1. Create some article on your post
+2. Add the code below into your posts
+3. Publish your posts
+
+### YOUR POSTS MUST HAVE THE CODE BELOW
+```html
+<div id='output'></div>```
+
 ### DEMO
 <a href="https://cc7z.blogspot.com/">Click this link, please!</a>
