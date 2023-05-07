@@ -36,14 +36,14 @@ Previously is from <a href="https://github.com/unmeimusu/safelink-old/tree/main"
 <a href="https://cc7z.blogspot.com/">Click this link, please!</a>
 
 ### FEATURES
-[X] Encrypt link form
-[X] Page redirect
-[X] Countdown timer
-[x] Random post
-[X] Password protection
-[X] Anonymous / no registration
-[X] Smaller footprint as basic template
-[X] Better performance, check below
+- [x] Encrypt link form
+- [x] Page redirect
+- [x] Countdown timer
+- [x] Random post
+- [x] Password protection
+- [x] Anonymous / no registration
+- [x] Smaller footprint as basic template
+- [x] Better performance, check below
 
 ### PERFORMANCE
 <a href="https://gtmetrix.com/reports/cc7z.blogspot.com/9EFxrRKy/">Latest report here.</a>
